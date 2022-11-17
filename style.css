@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.child {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.contenedor {
+  border: 6px solid rgba(120, 120, 120, 0.383);
+  height: 90vh;
+  width: 50vw;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.header {
+  border: 3px solid rgba(115, 168, 115, 0.675);
+  height: 15%;
+}
+
+.nav {
+  border: 3px solid pink;
+  height: 5%;
+}
+
+.centro {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.article {
+  border: 3px solid blue;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headercentro {
+  border: 3px solid rgba(115, 168, 115, 0.675);
+  height: 40px;
+}
+.section1 {
+  border: 3px solid rgba(160, 115, 168, 0.675);
+  height: 40px;
+}
+.section2 {
+  border: 3px solid rgba(160, 115, 168, 0.675);
+  height: 40px;
+}
+.footer1 {
+  border: 3px solid yellow;
+  height: 25px;
+}
+.footer2 {
+  border: 3px solid yellow;
+  width: 100%;
+  height: 20%;
+}
+.bloque3 {
+  border: 3px solid orange;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside1 {
+  border: 3px solid rgba(144, 163, 240, 0.73);
+  height: 50%;
+}
+.aside2 {
+  border: 3px solid rgba(144, 163, 240, 0.73);
+  height: 50%;
+}
