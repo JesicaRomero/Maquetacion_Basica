@@ -1,0 +1,38 @@
+.bloque1 {
+  height: 80vh;
+  /* background-repeat: none; */
+  /* background-color: rgb(17, 0, 255); */
+  font-family: Poppins, 'Arial Black', Gadget, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primeraFrase {
+  width: 30%;
+  padding: 20px;
+  font-size: larger;
+}
+
+.segundaFrase {
+  width: 30%;
+  padding: 20px;
+  font-size: xx-large;
+}
+
+.terceraFrase {
+  width: 30%;
+  padding: 20px;
+  font-size: larger;
+}
+
+body {
+  background-image: url('./Imagenes_Codenotch/duotone_5.png');
+}
+
+.footer,
+.footer a {
+  color: white;
+}
