@@ -1,0 +1,35 @@
+.textoEquipo {
+  font-family: Poppins, 'Arial Black', Gadget, sans-serif;
+  color: white;
+}
+
+.eslogan {
+  padding-top: 50px;
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  height: 300px;
+  line-height: 200px;
+  padding-left: 30px;
+}
+
+.eslogan span {
+  color: #11f294;
+}
+
+.texto {
+  height: 60%;
+  line-height: 1.5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  padding: 30px;
+}
+
+.imgEquipo {
+  color: white;
+  font-family: Poppins, 'Arial Black', Gadget, sans-serif;
+  height: 300px;
+  background-image: url('./Imagenes_Codenotch/img-equipo.png');
+  background-size: cover;
+  background-position: center;
+}
