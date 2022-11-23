@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+body {
+  background-color: #eee;
+}
+.menu {
+  background-color: #3e7289;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu__enlaces {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  font-size: xx-large;
+}
+
+.menu__enlaces:hover {
+  cursor: pointer;
+}
+
+.formulario {
+  background-color: #eee;
+  margin-top: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* justify-content: space-around; */
+}
+
+.input_form {
+  padding-left: 20px;
+  border-bottom: 2px solid #334e5a;
+  border-radius: 5px;
+}
+
+.botonForm {
+  width: 100px;
+}
+
+.container {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 30px;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.Imagen {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImagenCard {
+  width: 300px;
+  height: 200px;
+  max-height: 340px;
+  border-radius: 5px;
+}
+
+.TexoCard {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonCard {
+  width: 50%;
+}
+
+.footer {
+  color: black;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton_comun {
+  color: white;
+  background-color: #3e7289;
+  border: 2px solid #255468;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: medium;
+  text-align: center;
+  cursor: pointer;
+}
