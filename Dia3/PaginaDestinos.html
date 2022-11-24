@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyage</title>
+    <link rel="stylesheet" href="StylePaginaDestinos.css" />
+    <script src="./formulario.js"></script>
+    <script src="./destinos.js"></script>
+  </head>
+  <body onload="cargarDestinos()">
+    <header>
+      <nav class="menu">
+        <a class="menu__enlaces" href="./PaginaDestinos.html">Voyage</a>
+        <a class="menu__enlaces" href="./PaginaInicio.html">Sobre nosotros</a>
+      </nav>
+    </header>
+    <section class="formulario">
+      <input id="nombre" class="input_form" placeholder="Nombre" />
+      <input id="origen" class="input_form" placeholder="Origen" />
+      <input id="destino" class="input_form" placeholder="Destino" />
+      <input
+        id="numeroPersonas"
+        class="input_form"
+        placeholder="Numero de personas"
+      />
+      <input id="fecha" class="input_form" placeholder="Fecha" />
+      <button onclick="solicitarInfo()" class="botonForm boton_comun">
+        Mas Info
+      </button>
+      <button onclick="filtarSolicitudes()" class="botonForm boton_comun">
+        Filtrar
+      </button>
+    </section>
+    <section id="destinosFiltrados"></section>
+    <section id="destinos" class="container"></section>
+    <footer class="footer">
+      <div>© Voyage 2021 - 2022 | All rights reserved</div>
+    </footer>
+  </body>
+</html>
