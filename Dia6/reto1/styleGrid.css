@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.grid {
+  margin: 20px;
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-columns: 400px 200px 400px;
+  grid-template-rows: 200px 200px;
+}
+
+.childA {
+  background-color: greenyellow;
+}
+
+.childB {
+  background-color: orange;
+}
+
+.childC {
+  background-color: rgba(255, 68, 0, 0.804);
+}
+
+.childD {
+  background-color: red;
+}
+
+.childE {
+  background-color: blue;
+}
+
+.childF {
+  background-color: yellow;
+}
