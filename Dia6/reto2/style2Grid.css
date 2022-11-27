@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 50vh;
+  width: 50vw;
+  text-align: center;
+  margin: 20px;
+  border-top: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.childA,
+.childC,
+.childE {
+  background-color: greenyellow;
+}
+
+.childB,
+.childD,
+.childF {
+  background-color: black;
+  color: white;
+}
